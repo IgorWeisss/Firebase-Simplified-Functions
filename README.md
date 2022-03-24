@@ -22,3 +22,12 @@ Then, you can use the following methods:
 * db.docOnSnapshot(docId, callbackFunction) - Creates an "observer" that executes the callback function, everytime the document is updated
 * db.deleteField(docId, field) - Deletes specific fild within the document
 * db.deleteDoc(docId) - Deletes specified document
+
+## authSimplified.js:
+
+This methods are ment to be used with the simple email/password authentication in Firebase:
+
+* auth.createUser(email, password) - Creates a new user with provided email and password
+* auth.logIn(email, password) - Logs the user with provided email and password. The Auth State Persistence is defined by default to SESSION, but can be defined as LOCAL or NONE as well.
+* auth.logOut() - If logged in, logs out the current user
+* auth.startUserObserver() - Starts the observer that runs everytime the auth State changes (when user logs in or out)
