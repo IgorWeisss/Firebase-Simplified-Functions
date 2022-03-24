@@ -3,7 +3,7 @@ During the Full Stack Course by ProgBR, I learned about Firebase and how to use 
 
 I created two objects to facilitate the access to firestore and auth functionalities.
 
-##firestoreSimplified.js:
+## firestoreSimplified.js:
 
 The first step to use this functions is to set the collection name in the dbCollection variable. For example, "let dbCollection = 'MyCollection'"
 
